@@ -1,3 +1,3 @@
 # mpc_phot
-This program takes photometry data from the Table Mountain Observatory in Wrightwood, CA and generates lightcurves for each dataset, as well as corresponding periodograms. Given that we are observing NEA candidates, the goal is to determine rotation periods for each candidate, as well as how good of a fit it will be.
-Each folder contains the calibration and photometry data for that candidate, as well the generated lightcurves and periodograms from MPC_phot.ipynb.
+This program takes photometry data from the Table Mountain Observatory in Wrightwood, CA and generates lightcurves for each dataset, as well as corresponding periodograms. Given that we are observing potential near-Earth asteroids, the goal is to determine rotation periods for each candidate, as well as how good of a fit it will be.
+Each folder contains the calibration and photometry data for that candidate; the Jupyer notebook MPC_phot.ipynb takes this data and creates the necessary periodograms and lightcurves for that folder. The notebook was entirely my own work, though the sine fit function was adapted from a StackOverflow response.
